@@ -43,7 +43,7 @@ const EightBall = ({answers=defaultAnswers}) => {
     return (
         <div className="EightBall" 
             style={{ backgroundColor: color }} 
-            onClick={shake8Ball}>
+            onClick={ shake8Ball }>
             <div className="EightBall-text" >{msg}</div>
         </div>
     )};
